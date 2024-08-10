@@ -7,6 +7,9 @@ import IconsBichos from "@/components/ui/IconBichos";
 import IconsModalidades from "@/components/ui/iconsModalidades";
 import Sidebar from "@/components/ui/sidebar";
 import Image from "next/image";
+import Seninha from "@/components/modalidades/seninha";
+import QuinaBrasil from "@/components/modalidades/quinaBrasil";
+import Lt from "@/components/modalidades/lt";
 
 export default function Home() {
   return (
@@ -61,6 +64,45 @@ export default function Home() {
             </div>
             <div className="mb-10">
               <Quininha />
+            </div>
+            <div className="flex items-center text-white gap-2 mb-5 font-semibold">
+              <Image
+                src="/seninha.png"
+                width={20}
+                height={20}
+                alt="tradicional"
+                className="object-cover"
+              />
+              <h1>Seninha</h1>
+            </div>
+            <div className="mb-10">
+              <Seninha />
+            </div>
+            <div className="flex items-center text-white gap-2 mb-5 font-semibold">
+              <Image
+                src="/quinabrasil.png"
+                width={20}
+                height={20}
+                alt="tradicional"
+                className="object-cover"
+              />
+              <h1>Quina Brasil</h1>
+            </div>
+            <div className="mb-10">
+              <QuinaBrasil />
+            </div>
+            <div className="flex items-center text-white gap-2 mb-5 font-semibold">
+              <Image
+                src="/lotinha.png"
+                width={20}
+                height={20}
+                alt="tradicional"
+                className="object-cover"
+              />
+              <h1>Lt</h1>
+            </div>
+            <div className="mb-10">
+              <Lt />
             </div>
           </div>
         </div>

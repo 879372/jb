@@ -31,7 +31,7 @@ export default function IconsModalidades() {
                                 alt={modalidade.name} 
                                 className="object-cover" 
                             />
-                            <p className="text-xs mt-1 text-center">{modalidade.name}</p>
+                            <p className="text-xs mt-1 text-center flex flex-nowrap">{modalidade.name}</p>
                         </Link>
                     </div>
                 ))}
